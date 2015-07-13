@@ -20,11 +20,6 @@ int main(int argc, char** argv) {
    return 0;
 }
 
-// larry
-char larry(char c) {
-   return LARRY_RETURN_CHAR;
-}
-
 // cafe
 int cafe(int i) {
    return INCR(i);
