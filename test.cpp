@@ -7,7 +7,7 @@ int main(int argc, char** argv) {
 void larry() {
 }
 
-// bar
-int bar(int i) {
+// cafe
+int cafe(int i) {
    return i + 1;
 }
