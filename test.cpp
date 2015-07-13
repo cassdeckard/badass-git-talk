@@ -1,6 +1,6 @@
 #include <iostream>
 
-#define AWESOME_LETTER 'a'
+#define AWESOME_PHRASE "Hello World!"
 #define INCR(x) x+1
 
 using std::cout;
@@ -12,7 +12,7 @@ int cafe(int i);
 // main
 int main(int argc, char** argv) {
    for (int i = 0; i < INCR(1); ++i) {
-      cout << AWESOME_LETTER <<  endl;
+      cout << AWESOME_PHRASE <<  endl;
    }
    return argc;
 }
