@@ -8,9 +8,11 @@ using std::endl;
 
 char larry(char c);
 int cafe(int i);
+void print_welcome_message();
 
 // main
 int main(int argc, char** argv) {
+   print_welcome_message();
    for (int i = 0; i < INCR(argc); ++i) {
       cout << AWESOME_PHRASE <<  endl;
    }
