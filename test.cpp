@@ -1,5 +1,8 @@
+char larry(char c);
+
 // main
 int main(int argc, char** argv) {
+   char x = larry('b');
    if (argc > 1) {
       return 1;
    }
