@@ -1,8 +1,10 @@
 char larry(char c);
+int cafe(int i);
 
 // main
 int main(int argc, char** argv) {
    char x = larry('b');
+   int y = cafe(1);
    if (argc > 1) {
       return 1;
    }
