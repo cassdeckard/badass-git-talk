@@ -11,7 +11,7 @@ int cafe(int i);
 
 // main
 int main(int argc, char** argv) {
-   for (int i = 0; i < INCR(1); ++i) {
+   for (int i = 0; i < INCR(argc); ++i) {
       cout << AWESOME_PHRASE <<  endl;
    }
    return argc;
