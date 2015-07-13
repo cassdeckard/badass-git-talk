@@ -1,7 +1,6 @@
 #include <iostream>
 
 #define AWESOME_PHRASE "Hello World!"
-#define INCR(x) x+1
 
 using std::cout;
 using std::endl;
