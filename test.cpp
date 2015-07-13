@@ -1,6 +1,7 @@
 #include <iostream>
 
 #define LARRY_RETURN_CHAR 'a'
+#define INCR(x) x+1
 
 using std::cout;
 using std::endl;
@@ -26,5 +27,5 @@ char larry(char c) {
 
 // cafe
 int cafe(int i) {
-   return i + 1;
+   return INCR(i);
 }
