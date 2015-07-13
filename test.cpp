@@ -4,3 +4,7 @@ int main(int argc, char** argv) {
 
 void foo() {
 }
+
+int bar(int i) {
+   return i + 1;
+}
