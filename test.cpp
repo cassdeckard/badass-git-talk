@@ -12,7 +12,7 @@ int cafe(int i);
 // main
 int main(int argc, char** argv) {
    for (int i = 0; i < cafe(1); ++i) {
-      cout << larry('b') <<  endl;
+      cout << LARRY_RETURN_CHAR <<  endl;
    }
    if (argc > 1) {
       return 1;
