@@ -8,8 +8,10 @@ int cafe(int i);
 
 // main
 int main(int argc, char** argv) {
-   cout << larry('b') <<  endl;
    int y = cafe(1);
+   for (int i = 0; i < y; ++i) {
+      cout << larry('b') <<  endl;
+   }
    if (argc > 1) {
       return 1;
    }
