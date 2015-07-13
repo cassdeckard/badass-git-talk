@@ -14,8 +14,5 @@ int main(int argc, char** argv) {
    for (int i = 0; i < INCR(1); ++i) {
       cout << LARRY_RETURN_CHAR <<  endl;
    }
-   if (argc > 1) {
-      return 1;
-   }
-   return 0;
+   return argc;
 }
