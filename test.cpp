@@ -13,7 +13,7 @@ int cafe(int i);
 int main(int argc, char** argv) {
    cout << "Welcome to the wonderful Hello World program." << endl;
 
-   for (int i = 0; i < INCR(argc); ++i) {
+   for (int i = 0; i < argc; ++i) {
       cout << AWESOME_PHRASE <<  endl;
    }
 
