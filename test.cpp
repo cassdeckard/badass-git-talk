@@ -4,7 +4,8 @@ int main(int argc, char** argv) {
 }
 
 // larry
-void larry() {
+char larry(char c) {
+   return 'a';
 }
 
 // cafe
