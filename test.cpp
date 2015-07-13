@@ -11,16 +11,11 @@ int cafe(int i);
 
 // main
 int main(int argc, char** argv) {
-   for (int i = 0; i < cafe(1); ++i) {
+   for (int i = 0; i < INCR(1); ++i) {
       cout << LARRY_RETURN_CHAR <<  endl;
    }
    if (argc > 1) {
       return 1;
    }
    return 0;
-}
-
-// cafe
-int cafe(int i) {
-   return INCR(i);
 }
