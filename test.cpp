@@ -6,8 +6,6 @@
 using std::cout;
 using std::endl;
 
-char larry(char c);
-int cafe(int i);
 void print_welcome_message();
 
 // main
