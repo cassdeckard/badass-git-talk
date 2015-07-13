@@ -17,5 +17,5 @@ int main(int argc, char** argv) {
       cout << AWESOME_PHRASE <<  endl;
    }
 
-   return argc;
+   return argc - 1;
 }
