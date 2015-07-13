@@ -12,8 +12,10 @@ int cafe(int i);
 // main
 int main(int argc, char** argv) {
    cout << "Welcome to the wonderful Hello World program." << endl;
+
    for (int i = 0; i < INCR(argc); ++i) {
       cout << AWESOME_PHRASE <<  endl;
    }
+
    return argc;
 }
