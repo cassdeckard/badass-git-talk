@@ -1,5 +1,7 @@
 #include <iostream>
 
+#define LARRY_RETURN_CHAR 'a'
+
 using std::cout;
 using std::endl;
 
@@ -19,7 +21,7 @@ int main(int argc, char** argv) {
 
 // larry
 char larry(char c) {
-   return 'a';
+   return LARRY_RETURN_CHAR;
 }
 
 // cafe
